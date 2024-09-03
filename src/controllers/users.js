@@ -15,7 +15,7 @@ const UserCTL = {
         confirmPassword,
         phone,
       });
-      res.status(200).send({ 
+      res.status(201).send({ 
         message: "Register successfully!",
         data: user
       })
